@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<packaging>pom</packaging>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>it.beta80group</groupId>
+	<artifactId>archetype</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>archetype</name>
+	<description>Parent project</description>
+
+	<properties>
+		<java.version>1.8</java.version>
+	</properties>
+
+	<modules>
+		<module>backoffice/pom.xml</module>
+		<module>middleware/pom.xml</module>
+	</modules>
+
+</project>

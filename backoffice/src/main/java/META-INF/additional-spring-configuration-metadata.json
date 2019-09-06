@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "api.basepath",
+    "type": "java.lang.String",
+    "description": "API base path'"
+  },
+  {
+    "name": "api.endpoints.permissions",
+    "type": "java.lang.String",
+    "description": "API endpoint for Permission resource"
+  },
+  {
+    "name": "api.endpoints.roles",
+    "type": "java.lang.String",
+    "description": "API endpoint for Role resource"
+  }
+]}
